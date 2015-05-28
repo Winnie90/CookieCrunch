@@ -16,6 +16,7 @@
 		8388CFD41B171D9100812F37 /* CookieCrunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8388CFD31B171D9100812F37 /* CookieCrunchTests.swift */; };
 		8388CFDE1B171DD800812F37 /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 8388CFDD1B171DD800812F37 /* Sprites.atlas */; };
 		8388CFE01B171F7F00812F37 /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8388CFDF1B171F7F00812F37 /* Cookie.swift */; };
+		8388CFE21B1723F100812F37 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8388CFE11B1723F100812F37 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		8388CFD31B171D9100812F37 /* CookieCrunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieCrunchTests.swift; sourceTree = "<group>"; };
 		8388CFDD1B171DD800812F37 /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
 		8388CFDF1B171F7F00812F37 /* Cookie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		8388CFE11B1723F100812F37 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				8388CFBD1B171D9100812F37 /* GameScene.swift */,
 				8388CFBF1B171D9100812F37 /* GameViewController.swift */,
 				8388CFDF1B171F7F00812F37 /* Cookie.swift */,
+				8388CFE11B1723F100812F37 /* Array2D.swift */,
 				8388CFC11B171D9100812F37 /* Main.storyboard */,
 				8388CFC61B171D9100812F37 /* LaunchScreen.xib */,
 				8388CFC41B171D9100812F37 /* Images.xcassets */,
@@ -226,6 +229,7 @@
 				8388CFE01B171F7F00812F37 /* Cookie.swift in Sources */,
 				8388CFC01B171D9100812F37 /* GameViewController.swift in Sources */,
 				8388CFBA1B171D9100812F37 /* AppDelegate.swift in Sources */,
+				8388CFE21B1723F100812F37 /* Array2D.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
