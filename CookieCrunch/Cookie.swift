@@ -36,7 +36,7 @@ enum CookieType: Int, Printable {
     }
 }
 
-class Cookie: Printable {
+class Cookie: Printable, Hashable {
     var column: Int
     var row: Int
     let cookieType: CookieType
@@ -46,9 +46,17 @@ class Cookie: Printable {
         return "type:\(cookieType) square:(\(column),\(row))"
     }
     
+    var hashValue: Int {
+        return row*10 + column
+    }
+    
     init(column: Int, row: Int, cookieType: CookieType) {
         self.column = column
         self.row = row
         self.cookieType = cookieType
     }
+}
+
+func ==(lhs: Cookie, rhs: Cookie) -> Bool {
+    return lhs.column == rhs.column && lhs.row == rhs.row
 }
